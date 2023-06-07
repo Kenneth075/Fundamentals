@@ -73,6 +73,7 @@ namespace Fundamentals
             Console.WriteLine();
 
             Console.WriteLine("Generating alphabet");
+
             string alphabet = "";
 
             for(int i=0;i<26; i++)
@@ -128,15 +129,9 @@ namespace Fundamentals
                 if (isPrime == true)
                 {
                     Console.WriteLine(i);
-
                 }
+                Console.WriteLine();
             }
-
-
-
-
-
-
 
 
             Console.ReadKey();
