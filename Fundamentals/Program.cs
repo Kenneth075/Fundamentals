@@ -30,8 +30,8 @@ namespace Fundamentals
             }
             Console.WriteLine();
 
-            Console.WriteLine("First ten even numbers");
-            /*int found = 0;
+            /*Console.WriteLine("First ten even numbers");
+            int found = 0;
             for(int i= 0; i < 50; i++)
             {
                 if (i%2 == 0)
@@ -47,6 +47,7 @@ namespace Fundamentals
                
             }*/
             Console.WriteLine();
+
             for(int i= 0;i<10; i++)
             {
                 Console.WriteLine(i*2);
@@ -130,9 +131,37 @@ namespace Fundamentals
                 {
                     Console.WriteLine(i);
                 }
-                Console.WriteLine();
+            }
+            Console.WriteLine();
+
+            var numb = new List<int>();
+            //List<int> num = new List<int>();
+
+            int element = 10;
+            for(int i = 0; i < element; i++)
+            {
+                numb.Add(5*i);
             }
 
+            //numb[0] = 40;
+            
+            for(int i = 0; i < numb.Count; i++)
+            {
+                Console.WriteLine(numb[i]);
+            }
+
+
+            //Array
+            int[]nums= new int[10];
+
+            for(int i = 0; i < nums.Length; i++)
+            {
+               nums[i] = 5*i;
+            }
+            for(int i = 0; i < nums.Length; i++)
+            {
+                Console.WriteLine(nums[i]);
+            }
 
             Console.ReadKey();
         }
